@@ -1,4 +1,8 @@
 import React from 'react';
+import dateHelper from '../components/helper functions/DateTime'
+
+
+const today = dateHelper(new Date())
 
 export default function Homepage() {
     return (
@@ -14,7 +18,7 @@ export default function Homepage() {
             
             <div className='d-flex justify-content-center gap-2 '>
             <p>
-                Date Time
+                {today.formattedDate}
             </p>
             
             <p>
