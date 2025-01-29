@@ -16,6 +16,3 @@ function App() {
   );
 }
 export default App;
-    // <div className="App d-flex justify-content-center">
-      
-    // </div>
